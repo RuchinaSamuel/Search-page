@@ -1,0 +1,41 @@
+.box{
+display: flex;
+justify-content: center;
+margin-top: 5cm;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 15vh;
+font-weight: 200;
+
+}
+
+.a, .d{
+color: blue;
+}
+.b, .f{
+color: rgba(240, 32, 32, 0.925);
+}
+
+.c{
+color: rgb(214, 184, 15);
+}
+.e{
+color: green;
+}
+
+img{
+height: 4vh;
+justify-content: center;
+display: flex;
+margin-top: 1%;
+position: absolute;
+
+}
+.border{
+margin-top: 6%;
+border: 2px solid rgb(119, 115, 115);
+margin-left: 20%;
+margin-right: 20%;
+border-radius: 30px;
+box-sizing: border-box;
+height: 8vh;
+}
