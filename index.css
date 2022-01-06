@@ -15,11 +15,11 @@ display: flex;
 .box{
 font-family: sans-serif;
 font-size: 60px;
-font-weight: 600;
+font-weight: 500;
 }
 
 .a, .d{
-color: blue;
+color: rgb(74, 74, 199);
 }
 
 .b, .f{
