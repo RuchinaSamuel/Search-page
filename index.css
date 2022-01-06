@@ -1,3 +1,12 @@
+body{
+padding: 0;
+margin: 0;
+    
+}
+
+
+
+
 .box{
 display: flex;
 justify-content: center;
@@ -5,7 +14,7 @@ margin-top: 4cm;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 font-size: 15vh;
 font-weight: 400;
-background-color: white;
+
 }
 
 
@@ -35,12 +44,11 @@ margin-left: 10px;
 
 }
 .border{
-margin-top: 100px;
+margin-top: 15vh;
 border: 2px solid rgb(119, 115, 115);
 margin-left: auto;
 margin-right: auto;
 border-radius: 30px;
-box-sizing: border-box;
 height: 8vh;
 justify-content: center;
 
