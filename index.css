@@ -1,10 +1,11 @@
 .box{
 display: flex;
 justify-content: center;
-margin-top: 5cm;
+margin-top: 4cm;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 font-size: 15vh;
 font-weight: 500;
+background-color: white;
 }
 
 
@@ -28,15 +29,27 @@ justify-content: center;
 display: flex;
 margin-top: 1%;
 position: absolute;
+margin-left: 10px;
+
 
 
 }
 .border{
-margin-top: 6%;
+margin-top: 8%;
 border: 2px solid rgb(119, 115, 115);
 margin-left: 10%;
 margin-right: 10%;
 border-radius: 30px;
 box-sizing: border-box;
 height: 8vh;
+
+
+}
+
+@media screen and (max-width:700px){
+.border{
+max-height: 100px;
+width: 100px;
+display: flexbox;
+}
 }
