@@ -42,6 +42,7 @@ margin-right: 10%;
 border-radius: 30px;
 box-sizing: border-box;
 height: 8vh;
+justify-content: center;
 
 
 }
@@ -50,5 +51,6 @@ height: 8vh;
 .border{
 width: 800px;
 display: flexbox;
+justify-content: center;
 }
 }
