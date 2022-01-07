@@ -110,7 +110,7 @@ color: #777;
 display: flex;
 position: absolute;
 margin-top: 10%;
-width: 400px;
+width: 700px;
 height: 40px;
 border: 1px solid #d5d4d4;
 background-color: white;
@@ -141,8 +141,13 @@ font-size: 18px;
     }
 
     .base{
-    width: 40%;
+    width: 50%;
+
     
+    }
+
+    .base > input{
+    width: 20%
     }
 }
 
