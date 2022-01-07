@@ -134,6 +134,16 @@ font-size: 18px;
 
 }
 
+@media screen {max-width: 700px;
+ body{
+max-width: 600px;
+max-height: 600px;
+ }
+
+ .base{
+max-width: 400px;
+ }
+}
 
 
 
