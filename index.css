@@ -93,7 +93,7 @@ color: #7CBB00;
 .box{
 display: flex;
 position: absolute;
-top: 30%;
+top: 25%;
 }
 
 
@@ -110,7 +110,7 @@ color: #777;
 display: flex;
 position: absolute;
 margin-top: 10%;
-width: 300px;
+width: 400px;
 height: 40px;
 border: 1px solid #d5d4d4;
 background-color: white;
