@@ -109,7 +109,7 @@ color: #777;
 .base{
 display: flex;
 position: absolute;
-margin-top: 10%;
+margin-top: 10px;
 width: 50%;
 height: 40px;
 border: 1px solid #d5d4d4;
