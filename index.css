@@ -9,6 +9,8 @@ body{
     justify-content: center;
     align-items: center;
     display: flex;
+    width: 100%;
+    min-height: 100vh;
     
 
 
@@ -132,7 +134,7 @@ font-size: 18px;
 }
 
 @media only screen and (max-width: 600px){
-body{width: 800PX;}
+
     section{
         position: relative;
         width: 100%;
@@ -168,9 +170,7 @@ body{width: 800PX;}
 
 @media only screen and (min-width: 600px){
 
-body{
-width: 800PX;
-}
+
     section{
         position: relative;
         width: 100%;
@@ -207,10 +207,11 @@ width: 300px;
 }
 
 @media only screen and (min-width: 768px){
-body{width: 900PX;}
+
     section{
         position: relative;
         width: 100%;
+    min-width: 600px;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -243,7 +244,7 @@ display: flex;
 
 
 @media only screen and (min-width: 992px){
-body{width: auto;}
+
     section{
         position: relative;
         width: 100%;
@@ -278,7 +279,7 @@ min-height: 100vh;
 }
 
 @media only screen and (min-width: 1200px){
-body{width: auto;}
+
     section{
         position: relative;
         width: 100%;
@@ -314,7 +315,7 @@ min-height: 100vh;
 
 
 @media screen and (orientation: landscape){
-body{width: auto;}
+
 section{
 position: relative;
 width: 100%;
