@@ -160,11 +160,43 @@ position: absolute;
 display: flex;
 position: absolute;
 align-items: center;
-margin-bottom: 40px;
+
 }
 
 
 }
+
+@media (orientation: portrait){
+    section{
+    position: relative;
+    }
+    section header{
+    position:absolute;
+    top: 0;
+    justify-content: flex-end;
+    padding: 20px;
+    
+    }
+    section header ul{
+        display: flex;
+        
+        }
+    .box{
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    }
+    
+    .base{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    width: auto;
+    
+    }
+    
+    
+    }
     
 
 
