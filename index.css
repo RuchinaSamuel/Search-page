@@ -135,6 +135,11 @@ font-size: 18px;
 body{width: auto;}
     section{
         position: relative;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
         }
         section header{
         position:absolute;
@@ -157,7 +162,7 @@ body{width: auto;}
         justify-content: center;
         display: flex;
         position: absolute;
-        max-width: 200px;
+        width: 200px;
         }   
 }
 
@@ -168,6 +173,11 @@ width: auto;
 }
     section{
         position: relative;
+        width: 100%;
+        display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
         }
         section header{
         position:absolute;
@@ -190,7 +200,7 @@ display: flex;
 justify-content: center;
 display: flex;
 position: absolute;
-max-width: 200px;
+width: 200px;
 }
 
 
@@ -200,6 +210,11 @@ max-width: 200px;
 body{width: auto;}
     section{
         position: relative;
+        width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
         }
         section header{
         position:absolute;
@@ -222,7 +237,7 @@ display: flex;
  justify-content: center;
 display: flex;
  position: absolute;
- max-width: 400px;
+ width: 400px;
         }
 }
 
@@ -231,6 +246,11 @@ display: flex;
 body{width: auto;}
     section{
         position: relative;
+        width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
         }
         section header{
         position:absolute;
@@ -261,6 +281,11 @@ body{width: auto;}
 body{width: auto;}
     section{
         position: relative;
+        width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
         }
         section header{
         position:absolute;
@@ -283,7 +308,7 @@ body{width: auto;}
         justify-content: center;
         display: flex;
         position: absolute;
-       max-width: 800px ; 
+       max-width: 700px ; 
         }
 }
 
@@ -292,6 +317,11 @@ body{width: auto;}
 body{width: auto;}
 section{
 position: relative;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
 }
 section header{
 position:absolute;
@@ -323,6 +353,11 @@ align-items: center;
 @media screen and (orientation: portrait){
     section{
     position: relative;
+    width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
     }
     section header{
     position:absolute;
