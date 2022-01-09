@@ -132,7 +132,7 @@ font-size: 18px;
 }
 
 @media only screen and (max-width: 600px){
-body{width: auto;}
+body{width: 800PX;}
     section{
         position: relative;
         width: 100%;
@@ -169,7 +169,7 @@ body{width: auto;}
 @media only screen and (min-width: 600px){
 
 body{
-width: auto;
+width: 800PX;
 }
     section{
         position: relative;
@@ -207,7 +207,7 @@ width: 300px;
 }
 
 @media only screen and (min-width: 768px){
-body{width: auto;}
+body{width: 900PX;}
     section{
         position: relative;
         width: 100%;
