@@ -6,10 +6,10 @@ box-sizing: border-box;
 }
 
 body{
-    height: 100vh;
     justify-content: center;
     align-items: center;
     display: flex;
+
     }
     
 
@@ -40,8 +40,7 @@ height: 20px;
 
 section header ul{
 display: flex;
-justify-content: center;
-align-items: center;
+
 }
 
 section header ul li{
@@ -52,7 +51,7 @@ margin-left: 20px;
 section header ul li a{
 color: #111;
 text-decoration: none;
-font-size: 13px;
+font-size: 1rem;
 }
 
 section header ul li button{
@@ -61,16 +60,21 @@ border: none;
 outline: none;
 padding: 8px 14px;
 color: #fff;
-font-size: 13px;
+font-size: 1rem;
 font-weight: 700;
 border-radius: 3px;
 cursor: pointer;
 }
 
 .box{
-font-family: ;
-font-size: 60px;
+font-family: Roboto, "Segoe UI', Tahoma, Sans-serif";
+font-size: 4rem;
 font-weight: 600;
+justify-content: center;
+align-items: center;
+display: flex;
+position: absolute;
+top: 25%;
 }
 
 .a, .d{
@@ -90,11 +94,7 @@ color: #7CBB00;
 }
 
 
-.box{
-display: flex;
-position: absolute;
-top: 25%;
-}
+
 
 
 
@@ -105,12 +105,11 @@ color: #777;
 }
 
 
-
 .base{
 display: flex;
 position: absolute;
-margin-top: 10px;
-width: 50%;
+margin-top: 20px;
+width: 400px;
 height: 40px;
 border: 1px solid #d5d4d4;
 background-color: white;
@@ -119,11 +118,10 @@ align-items: center;
 padding: 20px;
 left: auto;
 right: auto;
-justify-content: center;
+
 
 
 }
-
 
 .base > input{
 flex: 1;
@@ -134,22 +132,43 @@ font-size: 18px;
 
 }
 
-@media screen and (max-width:700px){
-    body{
-    max-width: 900%;
-    max-height: 900%;
-    }
+@media all and (max-width: 500px){ 
 
-    .base{
-    width: 70%;
+}
+@media (orientation: landscape){
+section{
+position: relative;
+}
+section header{
+position:absolute;
+top: 0;
+justify-content: flex-end;
+padding: 20px;
 
+}
+section header ul{
+    display: flex;
     
     }
-
-    .base > input{
-    width: 20%
-    }
+.box{
+justify-content: center;
+display: flex;
+position: absolute;
 }
+
+.base{
+display: flex;
+position: absolute;
+align-items: center;
+}
+
+
+}
+    
+
+
+
+
 
 
 
