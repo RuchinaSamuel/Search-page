@@ -136,7 +136,7 @@ font-size: 18px;
 
 }
 
-@media only screen and (max-width: 320px){
+@media only screen and (min-width: 320px){
     body{
         justify-content: center;
         align-items: center;
@@ -173,7 +173,7 @@ font-size: 18px;
         justify-content: center;
         display: flex;
         position: absolute;
-        width: auto;
+        width: 20px;
         height: 30PX;
         }   
 }
