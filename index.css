@@ -142,8 +142,7 @@ font-size: 18px;
         align-items: center;
         width: 100%;
         min-height: 100vh;
-        padding-left: 10px;
-        padding-right: 10px;
+        
         }
     section{
         position: relative;
@@ -187,8 +186,7 @@ font-size: 18px;
         align-items: center;
         width: 100%;
         min-height: 100vh;
-        padding-left: 10px;
-        padding-right: 10px;
+        
         
         }
     section{
@@ -220,13 +218,13 @@ font-size: 18px;
         display: flex;
         position: absolute;
         width: auto;
-        height: 40PX;
+        height: 30PX;
         }   
 }
 
 
 
-@media only screen and (min-width: 600px){
+/* @media only screen and (min-width: 600px){
     body{
         justify-content: center;
         align-items: center;
@@ -493,7 +491,7 @@ min-height: 100vh;
     
     
     }
-    
+     */
 
 
 
