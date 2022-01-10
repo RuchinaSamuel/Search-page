@@ -134,10 +134,14 @@ font-size: 18px;
 }
 
 @media only screen and (max-width: 600px){
-
+    body{
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        min-height: 100vh;
+        }
     section{
         position: relative;
-        width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -169,11 +173,15 @@ font-size: 18px;
 }
 
 @media only screen and (min-width: 600px){
-
+    body{
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        min-height: 100vh;
+        }
 
     section{
         position: relative;
-        width: 100%;
         display: flex;
 justify-content: center;
 align-items: center;
@@ -207,10 +215,15 @@ width: 300px;
 }
 
 @media only screen and (min-width: 768px){
+    body{
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        min-height: 100vh;
+        }
 
     section{
         position: relative;
-        width: 100%;
     min-width: 600px;
 display: flex;
 justify-content: center;
@@ -244,10 +257,15 @@ display: flex;
 
 
 @media only screen and (min-width: 992px){
+    body{
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        min-height: 100vh;
+        }
 
     section{
         position: relative;
-        width: 100%;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -279,10 +297,15 @@ min-height: 100vh;
 }
 
 @media only screen and (min-width: 1200px){
+    body{
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        min-height: 100vh;
+        }
 
     section{
         position: relative;
-        width: 100%;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -315,10 +338,16 @@ min-height: 100vh;
 
 
 @media screen and (orientation: landscape){
+body{
+justify-content: center;
+align-items: center;
+width: 100%;
+min-height: 100vh;
+}
+
 
 section{
 position: relative;
-width: 100%;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -353,9 +382,15 @@ align-items: center;
 }
 
 @media screen and (orientation: portrait){
+    body{
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        min-height: 100vh;
+        }
+
     section{
     position: relative;
-    width: 100%;
 display: flex;
 justify-content: center;
 align-items: center;
