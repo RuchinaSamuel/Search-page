@@ -173,7 +173,7 @@ font-size: 18px;
         justify-content: center;
         display: flex;
         position: absolute;
-        width: 20px;
+        width: auto;
         height: 30PX;
         }   
 }
@@ -219,7 +219,7 @@ font-size: 18px;
         justify-content: center;
         display: flex;
         position: absolute;
-        width: 20px;
+        width: auto;
         height: 40PX;
         }   
 }
