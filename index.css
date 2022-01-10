@@ -37,6 +37,7 @@ padding: 20px;
 
 img{
 height: 20px;
+
 }
 
 section header ul{
@@ -59,10 +60,10 @@ section header ul li button{
 background: #4584ef;
 border: none;
 outline: none;
-padding: 8px 14px;
+padding: 2px 14px;
 color: #fff;
 font-size: 1rem;
-font-weight: 700;
+font-weight: 600;
 border-radius: 3px;
 cursor: pointer;
 align-items: center;
