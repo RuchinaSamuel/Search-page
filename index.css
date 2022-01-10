@@ -219,7 +219,7 @@ font-size: 18px;
         justify-content: center;
         display: flex;
         position: absolute;
-        width: auto;
+        width: 20px;
         height: 40PX;
         }   
 }
