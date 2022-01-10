@@ -11,9 +11,6 @@ body{
     display: flex;
     width: 100%;
     min-height: 100vh;
-    
-
-
     }
     
 
@@ -136,49 +133,6 @@ font-size: 18px;
 
 }
 
-@media only screen and (max-width: 320px){
-    body{
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        min-height: 100vh;
-        
-        }
-    section{
-        position: relative;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        min-height: 100vh;
-        }
-        section header{
-        position:absolute;
-        top: 0;
-        justify-content: flex-end;
-        padding: 20px;
-        
-        }
-        section header ul{
-            display: flex;
-            
-            }
-    .box{
-        justify-content: center;
-        position: absolute;
-        display: flex;
-        }
-        
-        .base{
-        justify-content: center;
-        display: flex;
-        position: absolute;
-        width: auto;
-        height: 30PX;
-        }   
-}
-
-
-
 
 @media only screen and (max-width: 600px){
     body{
@@ -186,7 +140,8 @@ font-size: 18px;
         align-items: center;
         width: 100%;
         min-height: 100vh;
-        
+        padding-left: 10px;
+        padding-right: 10px;
         
         }
     section{
@@ -207,6 +162,9 @@ font-size: 18px;
             display: flex;
             
             }
+section header ul li button{
+    align-items: center;
+}
     .box{
         justify-content: center;
         position: absolute;
@@ -218,13 +176,13 @@ font-size: 18px;
         display: flex;
         position: absolute;
         width: auto;
-        height: 30PX;
+        height: 40PX;
         }   
 }
 
 
 
-/* @media only screen and (min-width: 600px){
+@media only screen and (min-width: 600px){
     body{
         justify-content: center;
         align-items: center;
@@ -252,6 +210,9 @@ min-height: 100vh;
             display: flex;
             
             } 
+            section header ul li button{
+            align-items: center;
+            }
 .box{
 justify-content: center;
 position: absolute;
@@ -298,6 +259,9 @@ min-height: 100vh;
             display: flex;
             
             }
+            section header ul li button{
+        align-items: center;
+            }
  .box{
 justify-content: center;
 position: absolute;
@@ -342,6 +306,9 @@ min-height: 100vh;
             display: flex;
             
             }
+            section header ul li button{
+        align-items: center;
+            }
     .box{
         justify-content: center;
         position: absolute;
@@ -384,6 +351,10 @@ min-height: 100vh;
         section header ul{
             display: flex;
             
+            }
+
+            section header ul li button{
+            align-items: center;
             }
     .box{
         justify-content: center;
@@ -430,6 +401,9 @@ section header ul{
     display: flex;
     
     }
+    section header ul li button{
+    align-items: center;
+    }
 .box{
 justify-content: center;
 display: flex;
@@ -475,6 +449,10 @@ min-height: 100vh;
         display: flex;
         
         }
+
+        section header ul li button{
+        align-items: center;
+        }
     .box{
     justify-content: center;
     display: flex;
@@ -491,7 +469,7 @@ min-height: 100vh;
     
     
     }
-     */
+    
 
 
 
