@@ -133,6 +133,60 @@ font-size: 18px;
 
 }
 
+@media only screen and (max-width: 400px){
+    body{
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        min-height: 100vh;
+        padding-left: 10px;
+        padding-right: 10px;
+        
+        }
+    section{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        }
+        section header{
+        position:absolute;
+        top: 0;
+        justify-content: flex-end;
+        padding: 20px;
+        
+        }
+        section header ul{
+            display: flex;
+            
+            }
+section header ul li button{
+    align-items: center;
+}
+    .box{
+        justify-content: center;
+        position: absolute;
+        display: flex;
+        }
+        
+        .base{
+        justify-content: center;
+        display: flex;
+        position: absolute;
+        width: auto;
+        height: 40PX;
+        }   
+}
+
+
+
+
+
+
+
+
+
 
 @media only screen and (max-width: 600px){
     body{
